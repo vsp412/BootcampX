@@ -1,0 +1,1 @@
+select sum(ass.duration) from assignment_submissions as ass inner join students as s on s.id = ass.student_id where s.name = 'Ibrahim Schimmel'; 
